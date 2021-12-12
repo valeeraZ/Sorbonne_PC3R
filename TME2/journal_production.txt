@@ -1,0 +1,15 @@
+PRODUCTION: P0 produit pomme 0 
+PRODUCTION: P1 produit orange 0 
+PRODUCTION: P2 produit peche 0 
+PRODUCTION: P3 produit ananas 0 
+PRODUCTION: P4 produit banane 0 
+PRODUCTION: P0 produit pomme 1 
+PRODUCTION: P1 produit orange 1 
+PRODUCTION: P2 produit peche 1 
+PRODUCTION: P3 produit ananas 1 
+PRODUCTION: P4 produit banane 1 
+PRODUCTION: P0 produit pomme 2 
+PRODUCTION: P1 produit orange 2 
+PRODUCTION: P2 produit peche 2 
+PRODUCTION: P3 produit ananas 2 
+PRODUCTION: P4 produit banane 2 

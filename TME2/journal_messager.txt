@@ -1,0 +1,15 @@
+VOYAGE: pomme 0 par messager 1 
+VOYAGE: peche 0 par messager 0 
+VOYAGE: orange 0 par messager 2 
+VOYAGE: ananas 0 par messager 3 
+VOYAGE: banane 0 par messager 1 
+VOYAGE: orange 1 par messager 2 
+VOYAGE: pomme 1 par messager 0 
+VOYAGE: peche 1 par messager 3 
+VOYAGE: ananas 1 par messager 2 
+VOYAGE: orange 2 par messager 0 
+VOYAGE: pomme 2 par messager 3 
+VOYAGE: banane 1 par messager 1 
+VOYAGE: peche 2 par messager 2 
+VOYAGE: ananas 2 par messager 0 
+VOYAGE: banane 2 par messager 3 

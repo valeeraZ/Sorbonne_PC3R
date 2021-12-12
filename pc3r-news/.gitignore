@@ -1,0 +1,4 @@
+/news-server/target/
+/*/.idea/
+.idea
+**/*.iml

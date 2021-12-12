@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>ServletUser</servlet-name>
+        <servlet-class>user.controller.ServletUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletUser</servlet-name>
+        <url-pattern>/users/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletAuthentication</servlet-name>
+        <servlet-class>authentication.controller.ServletAuthentication</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletAuthentication</servlet-name>
+        <url-pattern>/authentication</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletCategory</servlet-name>
+        <servlet-class>subscription.controller.ServletCategory</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCategory</servlet-name>
+        <url-pattern>/categories</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletSubscription</servlet-name>
+        <servlet-class>subscription.controller.ServletSubscription</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSubscription</servlet-name>
+        <url-pattern>/subscriptions/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletArticle</servlet-name>
+        <servlet-class>article.controller.ServletArticle</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletArticle</servlet-name>
+        <url-pattern>/articles/*</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>ServletSpecifiedArticle</servlet-name>
+        <servlet-class>article.controller.ServletSpecifiedArticle</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletSpecifiedArticle</servlet-name>
+        <url-pattern>/specified-articles</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>CorsFilter</filter-name>
+        <filter-class>tools.filter.CORSFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CorsFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+    <filter>
+        <filter-name>CharsetFilter</filter-name>
+        <filter-class>tools.filter.CharsetFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>CharsetFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
+    <filter>
+        <filter-name>AuthenticationFilter</filter-name>
+        <filter-class>tools.filter.AuthenticationFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>AuthenticationFilter</filter-name>
+        <servlet-name>ServletSubscription</servlet-name>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>AuthenticationFilter</filter-name>
+        <servlet-name>ServletArticle</servlet-name>
+    </filter-mapping>
+    
+    <listener>
+        <listener-class>tools.automation.AutomaticTaskListener</listener-class>
+    </listener>
+
+</web-app>

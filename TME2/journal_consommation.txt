@@ -1,0 +1,15 @@
+CONSOMMATION: C0 mange pomme 0 
+CONSOMMATION: C1 mange peche 0 
+CONSOMMATION: C2 mange orange 0 
+CONSOMMATION: C0 mange ananas 0 
+CONSOMMATION: C0 mange banane 0 
+CONSOMMATION: C1 mange orange 1 
+CONSOMMATION: C2 mange pomme 1 
+CONSOMMATION: C3 mange peche 1 
+CONSOMMATION: C0 mange ananas 1 
+CONSOMMATION: C1 mange pomme 2 
+CONSOMMATION: C2 mange banane 1 
+CONSOMMATION: C3 mange orange 2 
+CONSOMMATION: C0 mange peche 2 
+CONSOMMATION: C1 mange ananas 2 
+CONSOMMATION: C2 mange banane 2 

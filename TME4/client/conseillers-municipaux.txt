@@ -1,0 +1,9 @@
+Titre du rapport
+Code du d�partement (Maire)	Libell� de d�partement (Maires)	Code Insee de la commune	Libell� de la commune	Nom de l'�lu	Pr�nom de l'�lu	Code sexe	Date de naissance	Code profession	Libell� de la profession	Date de d�but du mandat	Libell� de fonction	Date de d�but de la fonction	Nationalit� de l'�lu
+01	AIN	001	L'Abergement-Cl�menciat	BERAUD	Z�lie	F	26/3/1980	110	Artisans (obsol�te)	23/3/2014			Fran�aise
+01	AIN	001	L'Abergement-Cl�menciat	BOUILLOUX	Delphine	F	2/8/1977	102	Salari�s agricoles (obsol�te)	23/3/2014			Fran�aise
+01	AIN	001	L'Abergement-Cl�menciat	BOULON	Daniel	M	4/3/1951	161	Retrait�s salari�s priv�s (obsol�te)	23/3/2014	Maire	23/3/2014	Fran�aise
+01	AIN	001	L'Abergement-Cl�menciat	BUET	Roger	M	21/4/1952	101	Agriculteurs propri�taires exploit. (obsol�te)	23/3/2014	Troisi�me adjoint au maire	23/3/2014	Fran�aise
+01	AIN	001	L'Abergement-Cl�menciat	DESVAQUET	Nadine	F	22/8/1961	114	Agents technique et techniciens (obsol�te)	23/3/2014			Fran�aise
+01	AIN	001	L'Abergement-Cl�menciat	DUBOST	Daniel	M	10/10/1951	161	Retrait�s salari�s priv�s (obsol�te)	23/3/2014			Fran�aise
+01	AIN	001	L'Abergement-Cl�menciat	EVALET-TAPONAT	Line	F	22/7/1967	150	Cadres sup. (entreprises publiques) (obsol�te)	23/3/2014			Fran�aise
